@@ -11,6 +11,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+   TOCitem
 
 |
 Indices and tables
@@ -32,11 +33,13 @@ Here's a placeholder for some text.
    Some indentation
 
 And a list
-   *Item 1
-   *Item 2
+
+   * Item 1
+   * Item 2
 OR
-   #Item 1
-   #Item 2
+
+   #. Item 1
+   #. Item 2
 
 
 Tables Subsection
