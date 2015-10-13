@@ -3,24 +3,31 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to your Branch Volume's documentation
-=============================================
+
+Branch Volume Dashboard 
+***********************
+
+:Date:    	|today|
+:Release: 	|version|
+
+.. versionadded:: 1.0
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
+  
+   UserGuide
 
-   TOCitem
 
-|
-Indices and tables
-==================
+Purpose
+-------
+ This Branch Volume Dashboard gives a multilayered view of individual branch traffic within a given time period. 
+ It was built to assist Management with scheduling team members more efficiently to satisfy the demand of the 
+ branch on a monthly, weekly, and daily basis.
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-|
+
+
 
 
 Some Samples Section
@@ -30,7 +37,7 @@ Paragraph Subsection
 --------------------
 
 Here's a placeholder for some text.
-   Some indentation
+ Some indentation
 
 And a list
 
@@ -75,3 +82,11 @@ True   True   True
 
 
 
+
+
+Indices and Tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
