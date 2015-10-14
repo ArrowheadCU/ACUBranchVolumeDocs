@@ -5,11 +5,27 @@
 
 
 Branch Volume Dashboard 
-***********************
+=======================
 
-:Date:    |today|
-:Release: |version|
+:Date:    	|today|
+:Release: 	|version|
 
+____
+
+Welcome to your Branch Volume Dashboard Documentation
+-----------------------------------------------------
+ We place a high importance on consistency and readability of documentation. Our aim is to create, not only, a 
+ useful application but also provide a central source for everthing you need to know about the Branch Volume Dashboard.
+
+
+Updates
+-------
+.. versionadded:: 0.0.2
+
+ * Branch Volume Documentation and User Guide now available (See Table of Contents)
+ * Mapped and added event (Holiday and Payroll) date identification
+
+____
 
 Contents:
 
@@ -17,67 +33,7 @@ Contents:
    :maxdepth: 2
   
    UserGuide
-
-
-Purpose
--------
- This Branch Volume Dashboard gives a multilayered view of individual branch traffic within a given time period. 
- It was built to assist Management with scheduling team members more efficiently to satisfy the demand of the 
- branch on a monthly, weekly, and daily basis.
-
-
-Some Samples Section
-====================
-
-Paragraph Subsection
---------------------
-
-Here's a placeholder for some text.
- Some indentation
-
-And a list
-
-   * Item 1
-   * Item 2
-OR
-
-   #. Item 1
-   #. Item 2
-
-
-Tables Subsection
------------------
-
-Table1:
-
-+------------+------------+-----------+
-| Header 1   | Header 2   | Header 3  |
-+============+============+===========+
-| body row 1 | column 2   | column 3  |
-+------------+------------+-----------+
-| body row 2 | Cells may span columns.|
-+------------+------------+-----------+
-| body row 3 | Cells may  | - Cells   |
-+------------+ span rows. | - contain |
-| body row 4 |            | - blocks. |
-+------------+------------+-----------+
-
-
-Table2:
-
-=====  =====  ======
-   Inputs     Output
-------------  ------
-  A      B    A or B
-=====  =====  ======
-False  False  False
-True   False  True
-False  True   True
-True   True   True
-=====  =====  ======
-
-
-
+   ReleaseNotes
 
 
 Indices and Tables

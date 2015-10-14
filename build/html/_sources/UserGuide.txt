@@ -4,6 +4,14 @@
 User Guide
 ==========
 
+Why a Branch Volume Dashboard?
+------------------------------
+ This Branch Volume Dashboard gives a multilayered view of individual branch traffic within a given time period. 
+ It was built to assist Management with scheduling team members more efficiently to satisfy the demand of the 
+ branch on a monthly, weekly, and daily basis.
+
+________________________________________________________________________________________________________________
+
 Features
 --------
  The data to construct this dashboard is taken from Symitar and updated daily. The report only counts monetary 
@@ -15,6 +23,7 @@ Features
 .. figure:: _static/FeaturesParameters.png
    :align:  center
 
+________________________________________________________________________________________________________________
 
 How it Works
 ------------
@@ -25,39 +34,16 @@ How it Works
 
 .. figure:: _static/HowitWorks_ResultsGraph.png
    :align:  center
+ 
+
 .. figure:: _static/HowitWorks_ResultsTable.png
    :align:  center
 
 The table splits up the data by event to show their distribution within the chosen time period.
 
-   *Sample size: Counts how many times the event happened within the given start and end times. 
-   *Estimated FTE: Allocates the desired hours based on the weight of the transactions per day. 
-   *Payroll: Separates the average transactions that occurred on payroll days and compares it with the total average transactions.  
-   *Percentage: Divides the Transaction Count (Avg.) of the event by the Total Transaction Count.  
+   * Sample size: Counts how many times the event happened within the given start and end times. 
+   * Estimated FTE: Allocates the desired hours based on the weight of the transactions per day. 
+   * Payroll: Separates the average transactions that occurred on payroll days and compares it with the total average transactions.  
+   * Percentage: Divides the Transaction Count (Avg.) of the event by the Total Transaction Count.
 
-
-
-
-
-
-
-
-
-
-More Samples SubSection
---------------------
-
-More Paragraph Subsubsection
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Here's a placeholder for some text.
-   Some indentation
-
-And a list
-
-   * Item 1
-   * Item 2
-OR
-
-   #. Item 1
-   #. Item 2
+________________________________________________________________________________________________________________

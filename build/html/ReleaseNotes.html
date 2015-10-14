@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Search &mdash; BranchVolume 0.0.2 documentation</title>
+  <title>Release Notes &mdash; BranchVolume 0.0.2 documentation</title>
   
 
   
@@ -30,7 +30,8 @@
   
 
   
-    <link rel="top" title="BranchVolume 0.0.2 documentation" href="index.html"/> 
+    <link rel="top" title="BranchVolume 0.0.2 documentation" href="index.html"/>
+        <link rel="prev" title="User Guide" href="UserGuide.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -65,7 +66,7 @@
 
           
 <div role="search">
-  <form id="rtd-search-form" class="wy-form" action="#" method="get">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
@@ -79,9 +80,16 @@
           
             
             
-                <ul>
+                <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="UserGuide.html">User Guide</a></li>
-<li class="toctree-l1"><a class="reference internal" href="ReleaseNotes.html">Release Notes</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Release Notes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#branch-volume-0-0-2">Branch Volume 0.0.2</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#event-identification">Event Identification</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#caveats-with-event-dates">Caveats with Event Dates</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 
             
@@ -112,8 +120,12 @@
   <ul class="wy-breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
       
-    <li></li>
+    <li>Release Notes</li>
       <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/ReleaseNotes.txt" rel="nofollow"> View page source</a>
+          
         
       </li>
   </ul>
@@ -122,23 +134,41 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <noscript>
-  <div id="fallback" class="admonition warning">
-    <p class="last">
-      Please activate JavaScript to enable the search
-      functionality.
-    </p>
-  </div>
-  </noscript>
+  <div class="section" id="release-notes">
+<h1>Release Notes<a class="headerlink" href="#release-notes" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="branch-volume-0-0-2">
+<h2>Branch Volume 0.0.2<a class="headerlink" href="#branch-volume-0-0-2" title="Permalink to this headline">¶</a></h2>
+<p><em>October 14, 2015</em></p>
+<div class="section" id="event-identification">
+<h3>Event Identification<a class="headerlink" href="#event-identification" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>The Branch Volume has been improved to identify normal, payroll, and holiday event types. Within our database system,
+we have been able to match the days and weeks associated to a transaction date. This means you now have the ability to
+identify and compare event types to the total transaction average for a given time period.</div></blockquote>
+</div>
+<hr class="docutils" />
+<div class="section" id="caveats-with-event-dates">
+<h3>Caveats with Event Dates<a class="headerlink" href="#caveats-with-event-dates" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>The Branch Volume Dashoboard focuses on factual data with as minimal assumptions as possible. With that, the
+current output result of an event type is set to reflect an event on a particular day. If there are no transactions
+on a given day, in the case of many holiday events, there will be no data provided.</div></blockquote>
+<hr class="docutils" />
+</div>
+</div>
+</div>
 
-  
-  <div id="search-results">
-  
-  </div>
 
            </div>
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="UserGuide.html" class="btn btn-neutral" title="User Guide" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
@@ -176,7 +206,6 @@
       <script type="text/javascript" src="_static/jquery.js"></script>
       <script type="text/javascript" src="_static/underscore.js"></script>
       <script type="text/javascript" src="_static/doctools.js"></script>
-      <script type="text/javascript" src="_static/searchtools.js"></script>
 
   
 
@@ -192,14 +221,7 @@
           SphinxRtdTheme.StickyNav.enable();
       });
   </script>
-  
-  <script type="text/javascript">
-    jQuery(function() { Search.loadIndex("searchindex.js"); });
-  </script>
-  
-  <script type="text/javascript" id="searchindexloader"></script>
    
-
 
 </body>
 </html>
