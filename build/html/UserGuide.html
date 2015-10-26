@@ -32,7 +32,7 @@
   
     <link rel="top" title="BranchVolume 0.0.2 documentation" href="index.html"/>
         <link rel="next" title="Release Notes" href="ReleaseNotes.html"/>
-        <link rel="prev" title="Branch Volume Dashboard" href="index.html"/> 
+        <link rel="prev" title="Branch Volume Dashboard beta" href="index.html"/> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -89,6 +89,7 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="ReleaseNotes.html">Release Notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ContactUs.html">Contact Us</a></li>
 </ul>
 
             
@@ -139,7 +140,7 @@
 <h2>Why a Branch Volume Dashboard?<a class="headerlink" href="#why-a-branch-volume-dashboard" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div>This Branch Volume Dashboard gives a multilayered view of individual branch traffic within a given time period.
-It was built to assist Management with scheduling team members more efficiently to satisfy the demand of the
+It was built to assist Management in efficiently schedule team members to satisfy the demand of the
 branch on a monthly, weekly, and daily basis.</div></blockquote>
 </div>
 <hr class="docutils" />
@@ -147,9 +148,8 @@ branch on a monthly, weekly, and daily basis.</div></blockquote>
 <h2>Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div>The data to construct this dashboard is taken from Symitar and updated daily. The report only counts monetary
-transactions that are either, done by a team member in the same minute on the same day or by a team member on
-the same day, under the same sequence number. It then organizes the data by year, month, and date, then separates
-it by branches and departments. This dash board features parameters that can be customized to retrieve the
+transactions that are done by a team member in the same minute on the same day and under the same sequence number. It then categorizes the data by year, month, and date, and separates
+it by branches and departments. This dashboard features parameters that can be customized to retrieve the
 desired data.</div></blockquote>
 <div class="figure align-center">
 <img alt="_images/FeaturesParameters.png" src="_images/FeaturesParameters.png" />
@@ -159,9 +159,9 @@ desired data.</div></blockquote>
 <div class="section" id="how-it-works">
 <h2>How it Works<a class="headerlink" href="#how-it-works" title="Permalink to this headline">¶</a></h2>
 <blockquote>
-<div><p>The Dashboard evaluates all of the parameters and displays the average transactions count that occurred in the
+<div><p>The Dashboard evaluates all of the parameters and displays the average transaction counts that occurred in the
 chosen Period Type.</p>
-<p>Example: This illustrates the average daily transactions for a branch, with a budgeted FTE of 10.5. (420 hours)</p>
+<p>Example: The following illustrates the average daily transactions for a branch, with a budgeted weekly FTE of 10.5 (420 hours)</p>
 </div></blockquote>
 <div class="figure align-center">
 <img alt="_images/HowitWorks_ResultsGraph.png" src="_images/HowitWorks_ResultsGraph.png" />
@@ -169,16 +169,15 @@ chosen Period Type.</p>
 <div class="figure align-center">
 <img alt="_images/HowitWorks_ResultsTable.png" src="_images/HowitWorks_ResultsTable.png" />
 </div>
-<p>The table splits up the data by event to show their distribution within the chosen time period.</p>
+<p>The table splits up the data by event (All, Normal, Payroll, Holiday) to show their distribution and comparison within the chosen time period.</p>
 <blockquote>
 <div><ul class="simple">
-<li>Sample size: Counts how many times the event happened within the given start and end times.</li>
-<li>Estimated FTE: Allocates the desired hours based on the weight of the transactions per day.</li>
-<li>Payroll: Separates the average transactions that occurred on payroll days and compares it with the total average transactions.</li>
-<li>Percentage: Divides the Transaction Count (Avg.) of the event by the Total Transaction Count.</li>
+<li><strong>Transaction Count</strong>: Average monetary transactions that occurred within the selected period type, over the selected timeframe</li>
+<li><strong>% of Total</strong>: Relative average transaction count to total averaged transaction count within the selected timeframe. Divides the &#8216;Transaction Count (Avg.)&#8217; of the event by the &#8216;Total&#8217; Transaction Count.</li>
+<li><strong>Sample size</strong>: Counts how many available events (transaction count &gt; 0) occurred within the given start and end times.</li>
+<li><strong>Estimated FTE</strong>: Provided a &#8216;Period Budgeted FTE&#8217;, calculates the necessary FTE hours based on the weight of the transactions per day (&#8216;% of Total&#8217;).</li>
 </ul>
 </div></blockquote>
-<hr class="docutils" />
 </div>
 </div>
 
@@ -192,7 +191,7 @@ chosen Period Type.</p>
         <a href="ReleaseNotes.html" class="btn btn-neutral float-right" title="Release Notes" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="index.html" class="btn btn-neutral" title="Branch Volume Dashboard" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="index.html" class="btn btn-neutral" title="Branch Volume Dashboard beta" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
