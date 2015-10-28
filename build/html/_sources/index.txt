@@ -15,7 +15,7 @@ ____
 
 Welcome to your Branch Volume Dashboard Documentation
 -----------------------------------------------------
- Everything you need to about your Branch Volume Dashboard.
+ Everything you need to know about your Branch Volume Dashboard.
 
  Documentation is essential to any project and we place a high importance on its consistency and readability. Our aim here is  to create, not only, a useful application but also provide a simple resource to get you up and running with your tool. Jump  through the resources to discover more.
 
